@@ -18,9 +18,12 @@ int main(void)
 		{
 			for (k = 3 ; k < 10 ; k++)
 			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
+				if (i < j && j < k)
+				{
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(k + '0');
+				}
 				if (i + j + k != 24)
 				{
 					putchar(',');
