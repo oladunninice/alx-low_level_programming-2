@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *  print_diagonal  - printing a line
+ * print_diagonal  - printing a line
+ * @size: size of square 
  * written by oladunni
  *
  * Return: void
