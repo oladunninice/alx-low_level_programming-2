@@ -5,11 +5,11 @@
  * @n: number to be returned to the factorial from
  * Return: factorial of n
  */
-int factorial of n
+int factorial(int n)
 {
-if (n < 0 )
+if (n < 0)
 return (-1);
 if (n == 0)
-return (0);
-return (n * factorial(n - 1 ));
+return (1);
+return (n * factorial(n - 1));
 }
