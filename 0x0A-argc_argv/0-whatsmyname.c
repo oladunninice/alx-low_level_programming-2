@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - print its name
@@ -10,6 +9,6 @@
 
 int main(int argc__attribute__((unused)), char *argv[])
 {
-printf("%s\n", *argv);
+printf("%s\n",*argv);
 return (0);
 }
