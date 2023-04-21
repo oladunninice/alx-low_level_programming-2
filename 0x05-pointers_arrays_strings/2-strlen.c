@@ -6,7 +6,7 @@
  *  Return: the length of the string
  */
 
-int _strlen(char *s)
+int _strlen(char *s)2-strlen.c 
 {
 	int string_length = 0;
 
